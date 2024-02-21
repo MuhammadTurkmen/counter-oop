@@ -6,6 +6,10 @@ function getElement(selection) {
     throw new Error(`please check "${selection}" selector, no such element exists`)
 }
 
+class Counter {
+    
+}
+
 
 
 const firstCounter = new Counter(getElement('.first-counter'), 100)

@@ -11,6 +11,7 @@ function Counter(element, value) {
 
 Counter.prototype.increase = function() {
     this.value++
+    this.valueDOM.textContent = this.value
 }
 
 const firstCounter = new Counter(getElement('.first-counter'), 100)

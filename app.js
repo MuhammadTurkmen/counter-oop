@@ -15,6 +15,7 @@ function Counter(element, value) {
     this.valueDOM = element.querySelector('.value')
     this.valueDOM.textContent = this.value
 
+    // bind this to all function
     this.increaseBtn.addEventListener('click', this.increase.bind(this))
 }
 

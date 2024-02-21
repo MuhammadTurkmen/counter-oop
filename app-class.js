@@ -7,7 +7,7 @@ function getElement(selection) {
 }
 
 class Counter {
-    
+    constructor(element, value)
 }
 
 

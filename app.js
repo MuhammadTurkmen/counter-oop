@@ -11,7 +11,7 @@ function getElement(selection) {
     if(element) {
         return element
     }
-    throw new Error(`please check "${selection}"`)
+    throw new Error(`please check "${selection}" selector, no such element exists`)
 }
 
 getElement('first-counter')

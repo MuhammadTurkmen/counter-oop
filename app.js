@@ -16,6 +16,7 @@ function Counter(element, value) {
     this.valueDOM.textContent = this.value
 
     // bind this to all function
+    this.increase = this.increase.bind(this)
     this.increaseBtn.addEventListener('click', this.increase.bind(this))
 }
 

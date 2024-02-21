@@ -1,7 +1,7 @@
 function Counter(element, value) {
     this.counter = element
     this.value = value
-    this.resetBtn = element.querySelector
+    this.resetBtn = element.querySelector('.rest')
 }
 
 const firstCounter = new Counter(getElement('first-counter'), 100)

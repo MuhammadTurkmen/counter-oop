@@ -2,7 +2,7 @@ function Counter(element, value) {
     console.log(element, value)
 }
 
-const firstCounter = new Counter()
+const firstCounter = new Counter(getElement('first-counter'), 100)
 
 
 function getElement(selection) {
@@ -14,4 +14,3 @@ function getElement(selection) {
     throw new Error(`please check "${selection}" selector, no such element exists`)
 }
 
-getElement('first-counter')

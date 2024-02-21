@@ -44,10 +44,4 @@ const firstCounter = new Counter(getElement('.first-counter'), 100)
 const secondCounter = new Counter(getElement('.second-counter'), 200)
 
 
-firstCounter.increase()
-firstCounter.increase()
-firstCounter.increase()
-firstCounter.decrease()
-firstCounter.decrease()
-firstCounter.decrease()
-firstCounter.reset()
+

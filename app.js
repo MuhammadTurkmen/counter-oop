@@ -22,8 +22,8 @@ Counter.prototype.increase = function() {
     this.valueDOM.textContent = this.value
 }
 
-Counter.prototype.increase = function() {
-    this.value++
+Counter.prototype.decrease = function() {
+    this.value--
     this.valueDOM.textContent = this.value
 }
 

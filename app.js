@@ -8,6 +8,11 @@ function Counter(element, value) {
     this.valueDOM.textContent = this.value
 }
 
+
+Counter.prototype.increase = function() {
+    
+}
+
 const firstCounter = new Counter(getElement('.first-counter'), 100)
 const secondCounter = new Counter(getElement('.second-counter'), 200)
 

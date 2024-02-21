@@ -11,6 +11,7 @@ function getElement(selection) {
     if(element) {
         return element
     }
+    throw new Error(`please check "${selection}"`)
 }
 
 getElement('first-counter')

@@ -5,6 +5,7 @@ function Counter(element, value) {
     this.increaseBtn = element.querySelector('.increase')
     this.decreaseBtn = element.querySelector('.decrease')
     this.valueDOM = element.querySelector('.value')
+    this.valueDOM = this.value
 }
 
 const firstCounter = new Counter(getElement('first-counter'), 100)

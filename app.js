@@ -22,6 +22,15 @@ Counter.prototype.increase = function() {
     this.valueDOM.textContent = this.value
 }
 
+Counter.prototype.increase = function() {
+    this.value++
+    this.valueDOM.textContent = this.value
+}
+
+Counter.prototype.increase = function() {
+    this.value++
+    this.valueDOM.textContent = this.value
+}
 const firstCounter = new Counter(getElement('.first-counter'), 100)
 const secondCounter = new Counter(getElement('.second-counter'), 200)
 

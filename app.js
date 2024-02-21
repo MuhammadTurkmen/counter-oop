@@ -21,8 +21,8 @@ function Counter(element, value) {
     this.reset = this.reset.bind(this)
 
     this.increaseBtn.addEventListener('click', increase)
-    this.increaseBtn.addEventListener('click', increase)
-    this.increaseBtn.addEventListener('click', increase)
+    this.decreaseBtn.addEventListener('click', increase)
+    this.resetBtn.addEventListener('click', increase)
 }
 
 

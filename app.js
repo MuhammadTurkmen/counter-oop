@@ -7,4 +7,5 @@ const firstCounter = new Counter()
 
 function getElement(selection) {
     const element = document.querySelector(selection)
+    console.log(element)
 }

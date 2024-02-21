@@ -9,3 +9,5 @@ function getElement(selection) {
     const element = document.querySelector(selection)
     console.log(element)
 }
+
+getElement('first-counter')

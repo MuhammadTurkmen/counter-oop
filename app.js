@@ -14,6 +14,8 @@ function Counter(element, value) {
     this.decreaseBtn = element.querySelector('.decrease')
     this.valueDOM = element.querySelector('.value')
     this.valueDOM.textContent = this.value
+
+    this.increaseBtn.addEventListener()
 }
 
 

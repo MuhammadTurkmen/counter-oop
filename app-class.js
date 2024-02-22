@@ -28,7 +28,7 @@ class Counter {
 
     increase() {
         this.value++
-        
+        this.valueDOM.textContent = this.value
     }
 }
 

@@ -32,6 +32,7 @@ class Counter {
     }
     decrease() {
         this.value--
+        this.valueDOM.textContent = this.value
     }
 }
 

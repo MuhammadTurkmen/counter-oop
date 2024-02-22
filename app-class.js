@@ -27,6 +27,7 @@ class Counter {
     }
 
     increase() {
+        this.value++
         
     }
 }
